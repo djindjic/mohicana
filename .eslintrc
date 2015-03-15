@@ -1,0 +1,36 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jasmine": true,
+  },
+  "ecmaFeatures": {
+    "modules": true,
+    "blockBindings": true,
+  },
+  "rules": {
+    "no-loop-func": false,
+    "no-console": false,
+    "comma-dangle": "always",
+    "no-var": true,
+    "no-underscore-dangle": false,
+    "space-in-parens": "never",
+    "space-before-blocks": "always",
+    "space-in-brackets": "always",
+    "no-lonely-if": true,
+    "default-case": true,
+    "quotes": [1, "single", "avoid-escape"],
+    "strict": false,
+    "no-use-before-define": "nofunc",
+    "camelcase": false,
+    "new-cap": "newIsCap",
+    "curly": [2, "multi-line"],
+    "semi": [0, "always"],
+  },
+  "globals": {
+    "require": true,
+    "browser": true,
+    "element": true,
+    "by": true,
+  },
+}
