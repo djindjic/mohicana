@@ -3,4 +3,4 @@ mohicana
 ===========
 ES6 lib for jspm
 
-example how to deploy angular directives library into different module formats
+example angular directives library deployment to different module formats
