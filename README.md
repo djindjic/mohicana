@@ -1,5 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/djindjic/mohicana.png?branch=master)](https://travis-ci.org/djindjic/mohicana)
-
+[![Build Status](https://api.shippable.com/projects/5513c1c75ab6cc1352ab74bf/badge?branchName=master)](https://app.shippable.com/projects/5513c1c75ab6cc1352ab74bf/builds/latest)
 mohicana
 ===========
 ES6 lib for jspm
