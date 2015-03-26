@@ -34,5 +34,6 @@
     "by": true,
     "process": true,
     "module": true,
+    "require": true,
   },
 }
