@@ -1,5 +1,4 @@
 language: node_js
-sudo: false
 node_js:
   - "0.10"
 addons:
@@ -13,4 +12,7 @@ before_script:
   - jspm install
 script:
   - karma start karma.conf.js --browsers Firefox --single-run
-- secure: fPtOo4fK+CPdlUBgGGIIO7ajI3xKkBRe3JxgQSsDAr+PxfHL9K5iY4gq7tsMa1glMA+TdqPRD78wTzswuMKT6qUDFS6lDU2ypn90Rdk7pQTr+kG1+TRAYvUQrlEsnzoMYi+/l08z1SfJZNafL4zICeaZDTAO2ytjHzTtZstW2NFBm7CvJ7g95OSn+jfgoWNUrp9o+XM2fgQkjvsttzjWB1WGqYmaJLKilbhATWLNr24woXeYNk0tTtcd0PrLYMwCrRLi72zVQAfltWtSeSAUPa7ADXCrXpDwJu9xWhL4V0sXRP7wAClBgbsLUy7tA8gnOE2cKRQXJAM5eb9RJlCoZQ==
+after_script:
+  - "/etc/init.d/xvfb stop"
+env:
+  - secure: fPtOo4fK+CPdlUBgGGIIO7ajI3xKkBRe3JxgQSsDAr+PxfHL9K5iY4gq7tsMa1glMA+TdqPRD78wTzswuMKT6qUDFS6lDU2ypn90Rdk7pQTr+kG1+TRAYvUQrlEsnzoMYi+/l08z1SfJZNafL4zICeaZDTAO2ytjHzTtZstW2NFBm7CvJ7g95OSn+jfgoWNUrp9o+XM2fgQkjvsttzjWB1WGqYmaJLKilbhATWLNr24woXeYNk0tTtcd0PrLYMwCrRLi72zVQAfltWtSeSAUPa7ADXCrXpDwJu9xWhL4V0sXRP7wAClBgbsLUy7tA8gnOE2cKRQXJAM5eb9RJlCoZQ==
