@@ -22,21 +22,15 @@ module.exports = function(config) {
     files: [
     ],
 
-    preprocessors: {
-      'lib/**/*.js': ['coverage']
-    },
-    reporters: ['progress', 'coverage'],
+    // preprocessors: {
+    //   'lib/**/*.js': ['coverage']
+    // },
+    // reporters: ['progress', 'coverage'],
+    reporters: ['mocha'],
 
     // list of files to exclude
     exclude: [
     ],
-
-
-    // test results reporter to use
-    // possible values: 'dots', 'progress'
-    // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    // reporters: ['mocha'],
-
 
     // web server port
     port: 9876,
